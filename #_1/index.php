@@ -2,14 +2,19 @@
 
 // #1
 
-$students = ['luka', 'giorgi', 'sandro', 'irakli'];
+$students = ['ლუკა', 'გიორგი', 'სანდრო', 'ირაკლი'];
 $time = [2, 6, 3, 2];
 
 foreach ($students as $key => $name) {
-    echo $name . $time[$key];
+    echo $name . " - " . $time[$key] . " დასწრების საათების რაოდენობა";
     echo '<br>';
 }
 
+
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
 
 // #2
 
@@ -21,7 +26,7 @@ $studentsDesc = [
     ];
 
 foreach ($studentsDesc as $personName => $personTime) {
-    echo $personName . $personTime;
+    echo $personName. " - " . $personTime . " დასწრების საათების რაოდენობა";
     echo '<br>';
 }
 
